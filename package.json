@@ -1,0 +1,18 @@
+{
+  "name": "quarry",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "A RAG library that answers questions from your own documents.",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "test": "node --test test/*.test.js"
+  },
+  "dependencies": {
+    "next": "16.4.6",
+    "react": "19.3.0",
+    "react-dom": "19.3.0"
+  }
+}
