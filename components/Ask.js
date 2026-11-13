@@ -27,7 +27,7 @@ export default function Ask({ documents }) {
     <div className="layout">
       <aside>
         <p className="kicker">Shelves</p>
-        {documents.map((document) => (
+        {documents.slice(0, 6).map((document) => (
           <button key={document.id} type="button" onClick={() => onAsk(`What does ${document.title} say?`)}>
             <strong>{document.title}</strong>
             <span>{document.shelf}</span>
